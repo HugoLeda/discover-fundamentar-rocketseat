@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  width: 50%;
+  min-width: 375px;
+}
+
+form {
+  background-color: var(--form-background);
+  width: 80%;
+  height: 70%;
+  border-radius: 4px;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  flex-direction: column;
+}
+
+form h1 {
+  color: var(--text-title);
+  font: Poppins, sans-serif 24px 600;
+}
+
+.text-info {
+  color: var(--text-base);
+  font: Roboto, sans-serif 16px 500;
+}
+
+#subtitle {
+  margin: 8px 0;
+}
+
+.input {  
+  display: flex;
+  flex-direction: column;
+  
+  width: 335px;
+  margin: 8px 0 4px 0;
+}
+
+.input-check {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 335px;
+  margin: 8px 0 4px 0;
+}
+
+input[type="email"], input[type="password"] {
+  padding: 3px 6px;
+  margin-top: 4px;
+
+  height: 44px;
+  border: 2px solid #868686;
+  border-radius: 4px;
+  outline: 0;
+
+  transition: all .1s ease-out;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+  border: 3px solid var(--primary-color);
+}
+
+section {
+  width: 50%; 
+  height: 100vh;
+
+  background-image: url("./images/side-image-2x.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
