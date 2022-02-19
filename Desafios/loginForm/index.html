@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+  <link rel="shortcut icon" href="./images/favicon.ico">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +12,9 @@
 
   <main>
 
-    <div>
-      camo.in
-    </div>
+    <header>
+      <img src="./images/logo.svg">
+    </header>
     
     <form>
       <div class="title">
@@ -31,18 +32,20 @@
       <div class="input">
         <label for="password" class="text-info">Senha</label>
         <input type="password" id="password" placeholder="Digite sua senha" class="text-info">
+        <img src="./images/eye.svg">
       </div>
 
       <div class="input-check">
-        <div>
+        <label>
+          <div></div>
           <input type="checkbox" id="check"> 
-          <label for="check" class="text-info">Lembre-me</label>             
-        </div>
+          <span for="check" class="text-info">Lembre-me</span>             
+        </label>
         <span>Esqueci minha senha</span>
       </div>
 
       <button type="submit">Entrar</button>
-      <p>Não tenho conta? <a href="#">registre-se</a></p>
+      <p>Não tenho conta? <a href="#">Registre-se</a></p>
 
     </form>
   
@@ -53,4 +56,5 @@
   </section>
   
 </body>
+<script src="./script.js"></script>
 </html>
