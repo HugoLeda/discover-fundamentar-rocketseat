@@ -1,4 +1,4 @@
-# Rocketseat 🚀
+<h1 align="center"> Rocketseat 🚀 </h1>
 ## Discover - Fundamentar
 
 
